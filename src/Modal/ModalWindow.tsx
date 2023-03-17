@@ -91,7 +91,7 @@ const ModalWindow = (props: IModWindow) => {
       return undefined;
     } else {
       setDisableButton(true);
-      return `Значення повиино бути більше ніж ${min} символів`;
+      return `Значення повинно бути більше ніж ${min} символів`;
     }
   };
   useEffect(() => {
