@@ -1,0 +1,265 @@
+body {
+  margin: 0 auto;
+  background-color: gray;
+  width: 600px;
+  font-family: "Roboto", sans-serif;
+  padding-right: 90px;
+  padding-bottom: 50px;
+}
+
+.App {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0081f8;
+  padding: 5px;
+  height: 50px;
+
+  h1 {
+    color: white;
+    padding-right: 10px;
+    font-size: 26px;
+  }
+
+  h4 {
+    color: white;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+}
+
+.Header-Naming {
+  display: flex;
+}
+
+.Yellow-Line {
+  content: " ";
+  background-color: #fec40c;
+  color: #fec40c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.DropDown-List {
+  margin-top: 5px;
+
+  select {
+    height: 40px;
+    width: 100%;
+    margin: 4px 0 0 0;
+    font-size: 20px;
+  }
+
+  textarea {
+    width: 98%;
+    height: 150px;
+    resize: none;
+    border-radius: 5px;
+  }
+}
+
+.createReq {
+  background-color: #b4b00e;
+  border-radius: 10px;
+  height: 45px;
+  width: 100%;
+  color: black;
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: bold;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #f4ca16;
+  }
+}
+
+.modalWindow {
+  width: 400px;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+
+  p {
+    font-weight: bold;
+  }
+
+  select {
+    margin: 0 0 10px 0;
+  }
+}
+
+.newRecord {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+
+  p {
+    margin-top: 10px;
+    margin: 0;
+  }
+}
+
+.modalButtons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+
+  button {
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    font-weight: bold;
+  }
+}
+
+.todoItem {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: left;
+  word-break: break-all;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    background-color: lightgrey;
+    height: 40px;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 10px;
+    margin-left: 0;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-weight: bold;
+    }
+
+    .cityText {
+      width: 570px;
+      padding-right: 15px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .statusNotComplete {
+      background-color: #f07427;
+      padding: 5px;
+      margin: 0;
+      font-weight: bold;
+      width: 80px;
+      border: 1px solid black;
+    }
+
+    .statusComplete {
+      background-color: #2e7d32;
+      padding: 5px;
+      margin: 0;
+      font-weight: bold;
+      width: 80px;
+      border: 1px solid black;
+    }
+  }
+}
+
+.itemModalWindow {
+  background-color: #cde5f8;
+  padding: 15px;
+  border: 3px solid black;
+  word-break: break-all;
+
+  p {
+    margin: 5px;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+.alert {
+  border: 1.5px solid red;
+  padding: 5px;
+}
+.itemButtons {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+
+  button {
+    border: none;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    font-weight: bold;
+  }
+}
+.ModalToDoRequest {
+  background-color: #cde5f8;
+  padding: 10px;
+  border: 3px solid black;
+
+  h2 {
+    margin: 0;
+  }
+
+  input {
+    width: 97%;
+    height: 35px;
+    font-size: 24px;
+  }
+}
+
+.createButton {
+  margin-top: 8px;
+}
+.millitaryHelp {
+  color: #f01e30;
+  margin: 0;
+}
+
+.volonteerHelp {
+  color: green;
+  margin: 0;
+}
+
+.united24Logo {
+  position: sticky;
+  top: 460px;
+  margin-left: 5px;
+}
+
+.main {
+  padding-right: 50px;
+  width: 905px;
+  display: flex;
+
+  .ukraineFlag {
+    position: absolute;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+}

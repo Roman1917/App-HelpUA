@@ -1,0 +1,11 @@
+export const ADD_TODO = "ADD_TODO";
+export const GET_TODO_SUCCESS = "GET_TODO_SUCCESS";
+export const FETCH_TODO_SUCCESS = "FETCH_TODO_SUCCESS";
+export const TOGGLE_TODO_SUCCESS = "TOGGLE_TODO_SUCCESS";
+export const TOGGLE_TODO = "TOGGLE_TODO";
+export const localHost = "http://localhost:3000";
+export const GET_TODOS = "GET_TODOS";
+export const FETCH_TODO = "FETCH_TODO";
+export const ADD_TODO_SUCCESS = "ADD_TODO_SUCCESS";
+export const SHOW_MODAL = "SHOW_MODAL";
+export const SHOW_MODAL_SUCCESS = "SHOW_MODAL_SUCCESS";
